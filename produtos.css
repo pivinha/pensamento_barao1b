@@ -1,17 +1,27 @@
-ARQUIVO PRODUTOS.CSS
-
-header{background-color: #bbbbbb;
+:root {
+  --cor-fundo: #01080E;
+  --cor-principal: #0B0D20 ;
+  --cor-secundaria: #212333;
+  --cor-destaque: #2BDEFD;
+  --cor-texto: #D7F9FF;
 }
 
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+ color: var(--cor-destaque);
 }
